@@ -1,0 +1,42 @@
+
+div {
+    margin: 20px;
+    align-content: center;
+    text-align: center;
+
+}
+.first {
+    height: 600px;
+    background-color: #6d33b4;
+    font-size: 50px;
+    margin-top: 10px;
+
+}
+.second {
+    height: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.smallW {
+    width: 31%;
+    background-color: #1aa16d;
+    height: 100%;
+    margin: 0;
+    font-size: 30px;
+}
+
+.third {
+    height: 900px;
+    background-color: #6d33b4;
+    font-size: 50px;
+
+}
+
+span {
+    color: white;
+
+}
