@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    height: 100vh;
+}
+
+.firstScroll {
+    width: 100%;
+    background-image: url(1back.png);
+    background-size: cover;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.secondScroll, .thirdScroll {
+    width: 100%;
+    background-image: url(2back.png);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.firstBox {
+    width: 70vw;
+    height: 393px;
+    flex-shrink: 0;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.rightSide {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#p1 {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+
+}
+
+#p2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 44px 0;
+}
+
+.rightSide > button {
+    width: 409px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.secondScroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secondScroll > iframe {
+    margin-top: 10vh;
+    width: 63vw;
+    height: 53vh;
+    flex-shrink: 0;
+}
+
+.secondScroll > p {
+    margin: 10vh 0 9vh 0;
+    width: 63vw;
+    height: 18vh;
+    flex-shrink: 0;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.items {
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 13vh;
+    margin-bottom: 17vh;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    background-color: rgba(83, 83, 83, 0.40);
+}
+
+.item > img {
+    margin: 2.5vh 0 3.2vh 0;
+}
+
+.item > span {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.item > button {
+    width: 27vw;
+    height: 7vh;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin: 2.5vh 0 10vh 0;
+    color: #6B6666;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.span1 {
+    margin: 2.4vh 0 10.4vh 0;
+}

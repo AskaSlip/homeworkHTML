@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+footer, header {
+    height: 10vh;
+    background-color: #D9D9D9;
+}
+
+#firstS {
+    height: 20vh;
+    background-color: #C2C4AC;
+}
+
+#secondS {
+    height: 60vh;
+    display: flex;
+}
+
+.olive {
+    width: 20vw;
+    background-color: #9EA087;
+}
+
+#greyM {
+    width: 60vw;
+    background-color: #78786F;
+}

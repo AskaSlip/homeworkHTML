@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 25px 0;
+}
+p {
+    width: 90%;
+    margin: 50px 0;
+
+}
+.pink {
+    background-color: #f1b1bc;
+    height: 50vh;
+    color: #2c2a2a;;
+}
+
+.grey {
+    background-color: #2c2a2a;
+    height: 50vh;
+    color: #f1b1bc;
+}
