@@ -1,0 +1,15 @@
+@media screen and (min-width: 600px) and (max-width: 1200px){
+
+    .box>article{
+        width: 24%;
+        height: 99%;
+        display: flex;
+    }
+
+    .box>article>span {
+        transform-origin: right;
+        transform: rotate(-90deg);    }
+
+
+
+}
